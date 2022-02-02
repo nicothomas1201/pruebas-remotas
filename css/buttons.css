@@ -1,0 +1,23 @@
+.button{
+  cursor: pointer;
+  block-size: 3.25rem;
+  text-align: center;
+  padding-inline: 2.875rem ;
+  font: var(--button);
+  color: var(--light);
+  border: none;
+  border-radius: 5rem;
+}
+
+.button:active{
+  transform: scale(.9);
+}
+
+.button.is-primary{
+  background-color: var(--primary);
+}
+
+.button.is-secondary{
+  background-color: var(--light);
+  color: var(--black);
+}

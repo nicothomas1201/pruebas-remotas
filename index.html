@@ -6,11 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
   <title>Pruebas Remotas</title>
 </head>
 <body>
-  <h1>Pruebas Remotas</h1>
+    <header class="header" aria-label="header">
+      <div class="header-logo">
+        <img src="../images/logo.png" height="48" width="48" alt="">
+      </div>
+      <nav class="header-nav" aria-label="navigacion de la pagina">
+        <ul class="header-list">
+          <a href="#products">
+            <li>Productos</li>
+          </a>
+          <a href="#aboutUs">
+            <li>Sobre Nosotros</li>
+          </a>
+          <a href="#contact">
+            <li>Contacto</li>
+          </a>
+        </ul>
+      </nav>
+      <button class="button is-primary">Empiece gratis</button>
+    </header>
+
+    <section class="hero" aria-label="hero">
+      <div class="hero-description">
+        <h1 class="hero-title">
+          Pruebe rápidamente cualquier cosa
+        </h1>
+        <h3 class="hero-subtitle">
+          Impulse la toma de decisiones con pruebas 
+          rápidas y remotas
+        </h3>
+      </div>
+      <div class="hero-buttons">
+        <button class="button is-primary">Empiece gratis</button>
+        <button class="button is-secondary">Pruebe la demo</button>
+      </div>
+      <div class="heroScreen">
+        <div class="headerBar">
+          <div class="headerBar-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="headerBar-search"></div>
+        </div>
+        <div class="heroScreen-dashboard">
+          <img src="./images/Dashboard.png" width="1120" height="750" alt="">
+        </div>
+      </div>
+    </section>
 </body>
 </html>
