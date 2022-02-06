@@ -1,0 +1,27 @@
+.hero-bg{
+  padding-inline: 3.1875rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.514) 7.62%, rgba(0, 225, 199, 0.349) 25.5%, #FFFFFF 70.92%);
+}
+
+.circle-bg{
+  position: absolute;
+  inline-size: 650px;
+  block-size: 475px;
+  background-color: var(--secondary1);
+  border-radius: 100%;
+  right: 0;
+  z-index: 1;
+  transform: translate(50% , 60%);
+}
+
+
+.circle-bg2{
+  position: absolute;
+  inline-size: 500px;
+  block-size: 500px;
+  background-color: var(--primary);
+  border-radius: 100%;
+  left: 0;
+  z-index: 1;
+  transform: translateX(-65% );
+}

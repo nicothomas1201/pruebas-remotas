@@ -1,0 +1,23 @@
+#products{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14.375rem 3.875rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+#products .section-title{
+  font: var(--secondheadline);
+  color: var(--firsttext);
+}
+
+#products .section-subtitle{
+  display: inline-block;
+  inline-size: 100%;  
+  max-inline-size: 44.1875rem;
+}
+
+#products .section-buttons{
+  margin-block-start: 3.6875rem;  
+}

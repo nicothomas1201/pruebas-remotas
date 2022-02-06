@@ -1,0 +1,37 @@
+.testimonial{
+  inline-size: 100vh;
+  block-size: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 3.125rem;
+}
+
+.testimonial p{
+  display: inline-block;
+  inline-size: 100%;
+  max-inline-size: 30.875rem;
+}
+
+.testimonial-user{
+  display: flex;
+  text-align: left;
+  gap: .8125rem;
+}
+
+.user-details span{
+  display: block;
+}
+
+.user-name{
+  font: var(--link);
+  color: var(--firsttext);
+}
+
+.user-vocation{
+  font: var(--subtitle);
+  color: var(--secondtext);
+}

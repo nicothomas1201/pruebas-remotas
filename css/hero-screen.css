@@ -6,11 +6,14 @@
   max-inline-size: 70rem;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  z-index: 2;  
 }
 
 .heroScreen-dashboard{
   max-block-size: 1120px;
-  
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.16), 0px 6px 80px rgba(0, 0, 0, 0.23);
+
 }
 
 .heroScreen-dashboard img{

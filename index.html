@@ -11,53 +11,145 @@
   <title>Pruebas Remotas</title>
 </head>
 <body>
-    <header class="header" aria-label="header">
-      <div class="header-logo">
-        <img src="../images/logo.png" height="48" width="48" alt="">
-      </div>
-      <nav class="header-nav" aria-label="navigacion de la pagina">
-        <ul class="header-list">
-          <a href="#products">
-            <li>Productos</li>
-          </a>
-          <a href="#aboutUs">
-            <li>Sobre Nosotros</li>
-          </a>
-          <a href="#contact">
-            <li>Contacto</li>
-          </a>
-        </ul>
-      </nav>
-      <button class="button is-primary">Empiece gratis</button>
-    </header>
+    <div class="hero-bg">
+      <header class="header">
+        <div class="header-logo">
+          <img src="./images/logo.png" width="48" height="48" alt="">
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></a>
+          </ul>
+        </nav>
+        <button class="button is-primary">Empiece Gratis</button>
+      </header>
 
-    <section class="hero" aria-label="hero">
-      <div class="hero-description">
-        <h1 class="hero-title">
-          Pruebe rápidamente cualquier cosa
-        </h1>
-        <h3 class="hero-subtitle">
-          Impulse la toma de decisiones con pruebas 
-          rápidas y remotas
-        </h3>
-      </div>
-      <div class="hero-buttons">
-        <button class="button is-primary">Empiece gratis</button>
-        <button class="button is-secondary">Pruebe la demo</button>
-      </div>
-      <div class="heroScreen">
-        <div class="headerBar">
-          <div class="headerBar-menu">
-            <span></span>
-            <span></span>
-            <span></span>
+      <div class="hero">
+        <div class="circle-bg"></div>
+        <div class="circle-bg2"></div>
+        <div class="hero-description">
+          <h1 class="hero-title">Pruebe rápidamente cualquier cosa</h1>
+          <h3 class="hero-subtitle">
+            Impulse la toma de decisiones con pruebas 
+            rápidas y remotas
+          </h3>
+        </div>
+        <div class="hero-buttons">
+          <button class="button is-primary">empice gratis</button>
+          <button class="button is-secondary">prueba la demo</button>
+        </div>
+
+        <div class="heroScreen">
+          <div class="headerBar">
+            <div class="headerBar-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="headerBar-search"></div>
           </div>
-          <div class="headerBar-search"></div>
+          <div class="heroScreen-dashboard">
+            <img src="./images/Dashboard.png" width="1120" height="750" alt="">
+          </div>
+
         </div>
-        <div class="heroScreen-dashboard">
-          <img src="./images/Dashboard.png" width="1120" height="750" alt="">
-        </div>
+      </div>
+
+    </div>
+
+    <section class="section" id="products" aria-label="comienza ya">
+      <h2 class="section-title">Prueba cada paso del camino</h2>
+      <p class="section-subtitle">Comparta pruebas o encuestas con los usuarios en cuestión de segundos a través de una simple URL.</p>
+      <div class="section-buttons">
+        <button class="button is-primary">Empiece gratis</button>
+        <button class="button is-secondary">Prueba la demo</button>                
       </div>
     </section>
+
+    <section class="section"  aria-label="">
+      <div class="circle"></div>
+      <div class="section-frame"></div>
+      <div class="section-description">
+        <h2 class="section-title">Cree pruebas tan simples o dinámicas como desee</h2>
+        <p class="section-subtitle">¡Crea fácilmente pruebas personalizadas con las funciones versátiles!</p>
+        <a href="#" class="section-link" target="blank">ver mas</a>
+      </div>
+    </section>
+
+    <section class="section"  aria-label="">
+      <div class="circle2"></div>
+      <div class="section-frame"></div>
+      <div class="section-description">
+        <h2 class="section-title">Cree pruebas tan simples o dinámicas como desee</h2>
+        <p class="section-subtitle">¡Crea fácilmente pruebas personalizadas con las funciones versátiles!</p>
+        <a href="#" class="section-link" target="blank">ver mas</a>
+      </div>
+    </section>
+
+    <section class="testimonial"  aria-label="">
+      <h2 class="section-title">Testimonials</h2>
+      <p class="section-subtitle">
+        Esta herramienta facilitó muchísimo el trabajo en equipo. Permitiendo acelerar nuestro 
+        proceso de diseño.
+      </p>
+      <div class="testimonial-user">
+        <img src="./images/avatar.png" alt="" width="50" height="50">
+        <div class="user-details">
+          <span class="user-name">uxcristopher</span>
+          <span class="user-vocation">Designer</span>
+        </div>
+      </div>
+
+      <button class="button is-primary">Ver mas testimonios</button>
+    </section>
+
+    <div class="ofert">
+      <div class="ofert-details">
+        <h2>Profesional</h2>
+        <p>Aporta conocimientos prácticos a todo el equipo</p>
+      </div>
+      <div class="ofert-price">
+        <h2>$25</h2>
+        <button class="button is-primary">Empezar</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./images/logo.png" height="48" width="48" alt="">
+        <span>No te rindas</span>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#products">
+              Productos
+            </a>
+          </li>
+          <li>
+            <a href="#">Sobre nosotros</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <ul>
+          <li>
+            <img src="./images/twitter.svg" width="50" height="50" alt="">
+          </li>
+          <li>
+            <img src="./images/facebook.svg" width="50" height="50" alt="">
+          </li>
+          <li>
+            <img src="./images/linkedin.svg" width="50" height="50"  alt="">
+          </li>
+        </ul>
+      </div>
+    </footer>
 </body>
 </html>

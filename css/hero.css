@@ -1,4 +1,5 @@
 @import './hero-screen.css';
+@import './hero-bg.css';
 
 .hero{
   display: flex;
@@ -7,10 +8,10 @@
   gap: 2.8125rem;
   text-align: center;
   margin-block-start: 5.6875rem;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
 }
 
 .hero-description{
+  z-index: 2;
   padding-block: 2.4375rem;
 }
 
@@ -29,4 +30,8 @@
   font: var(--subheading);
   color: var(--secondary2);
   margin: 0;
+}
+
+.hero-buttons{
+  z-index: 2;
 }

@@ -1,4 +1,5 @@
 .button{
+  border: 1px solid transparent;
   cursor: pointer;
   block-size: 3.25rem;
   text-align: center;
@@ -15,9 +16,12 @@
 
 .button.is-primary{
   background-color: var(--primary);
+  border: 1px solid transparent;
+
 }
 
 .button.is-secondary{
   background-color: var(--light);
+  border: 1px solid transparent;
   color: var(--black);
 }

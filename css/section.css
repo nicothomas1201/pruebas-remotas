@@ -1,0 +1,85 @@
+@import './products.css';
+@import './testimonial.css';
+
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.75rem;  
+  padding-block: 6.25rem;
+}
+
+.section-frame{
+  z-index: 2;
+  inline-size: 100%;
+  max-inline-size: 32.25rem;
+  block-size: 21.9375rem;
+  background-image: url(../images/screen1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-description{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4375rem;
+  inline-size: 100%;
+  max-inline-size: 41rem;
+}
+
+.section-title{
+  margin: 0;
+  font: var(--title);
+  color: var(--firsttext);
+}
+
+.section-subtitle{
+  margin: 0;
+  font: var(--subheading);
+  color: var(--secondtext);
+
+}
+
+.section-link{
+  font: var(--link);
+  color: var(--primary);
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section-buttons .button.is-secondary{
+  color: var(--primary);
+  border-color:  var(--primary);
+}
+
+.section .circle{
+  position: absolute;
+  inline-size: 31.25rem;
+  block-size: 31.25rem;
+  background-color: var(--secondary1);
+  border-radius: 50%;
+  left: 0;
+  transform: translateX(-45%);
+  /* z-index: 1; */
+}
+
+.section:nth-of-type(3) .section-frame{
+  order: 1;
+  background-image: url(../images/screen2.png);
+}
+
+.section:nth-of-type(3)  .circle2{
+  position: absolute;
+  inline-size: 100%;
+  max-inline-size: 31.25rem;
+  block-size: 31.25rem;
+  background-image: url(../images/vector-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 0;
+  transform: translateX(45%);
+}
+
+

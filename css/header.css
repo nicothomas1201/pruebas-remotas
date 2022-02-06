@@ -1,28 +1,14 @@
 .header{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   block-size: 7.4375rem;
-  padding-inline: 1rem;
-  max-inline-size: 73.75rem;
-  margin: auto;
+  gap: 1rem;
 }
 
 .header-logo img{
   vertical-align: middle;
 }
 
-.header-nav a{
-  text-decoration: none;
-  color: var(--firsttext);
-}
 
-.header-list{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  font: var(--link);
-  
-  gap: 3.1875rem;
-}
+

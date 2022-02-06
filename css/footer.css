@@ -1,0 +1,36 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 4.125rem;
+}
+
+.footer-logo{
+  font: var(--subtitle);
+  color: var(--secondtext);
+}
+
+.footer-logo img{
+  vertical-align: middle;
+}
+
+.footer-logo span{
+  display: block;
+}
+
+/* .footer-social{
+
+} */
+
+.footer-social ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 1.875rem;
+}
+
+.footer-social ul img{
+  vertical-align: middle;
+}

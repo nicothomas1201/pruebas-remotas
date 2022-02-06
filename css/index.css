@@ -1,8 +1,11 @@
 @import './icon.css';
 @import './buttons.css';
-@import './header.css';
 @import './hero.css';
-@import './wrapper.css';
+@import './header.css';
+@import './nav.css';
+@import './ofert.css';
+@import './section.css';
+@import './footer.css';
 
 
 :root { 
@@ -33,6 +36,7 @@ body {
   color: var(--primary);
   background-color: var(--light);
   font: var(--title);
+  overflow-x: hidden;
 }
 
 
