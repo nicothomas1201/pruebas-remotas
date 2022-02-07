@@ -14,7 +14,6 @@
   --secondary1: #d1d1e9; 
   --secondary2: #112d57; 
   --firsttext: #20262a; 
-  --lighttext: #ffffff; 
   --secondtext: #5c5c5c; 
   --dark: #182333; 
   --light: #ffffff; 
@@ -39,8 +38,3 @@ body {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 1187px) {
-  body{
-    overflow-x: hidden;
-  }  
-}

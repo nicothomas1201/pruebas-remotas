@@ -1,12 +1,13 @@
 .ofert{
-  background-color: var(--dark);
-  color: var(--light);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
-  /* block-size: auto; */
-  block-size: 22.125rem;
+  gap: 3.5625rem;
+  text-align: center;
+  padding-block: 6.25rem;
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 .ofert-details > *{
@@ -34,5 +35,19 @@
   content: '/mes';
   position: absolute;
   color: var(--light);
-  font: var(--subheading);
+  font: var(--subtitle);
+
+}
+
+@media screen and (min-width: 1187px) {
+  .ofert{
+    flex-direction: row;
+    text-align: left;
+    block-size: 22.125rem; 
+    justify-content: space-around;
+  }
+
+  .ofert-price h2::after{
+    font: var(--subheading);
+  }
 }

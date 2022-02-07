@@ -2,7 +2,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 14.375rem 3.875rem;
+  padding-block:  3.875rem;
   gap: 1rem;
   text-align: center;
 }
@@ -28,6 +28,10 @@
 }
 
 @media screen and (min-width: 1187px) {
+  #products{
+    padding-inline: .375rem
+  }
+
   #products .section-buttons{
     flex-direction: row;
     justify-content: center;

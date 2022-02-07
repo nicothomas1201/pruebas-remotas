@@ -1,5 +1,5 @@
 .hero-bg{
-  padding-inline: 3.1875rem;
+  padding-inline: 1rem;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.514) 7.62%, rgba(0, 225, 199, 0.349) 25.5%, #FFFFFF 70.92%);
 }
 
@@ -11,7 +11,7 @@
   border-radius: 100%;
   right: 0;
   z-index: 1;
-  transform: translate(50% , 60%);
+  transform: translate(85% , 60%);
 }
 
 
@@ -23,5 +23,19 @@
   border-radius: 100%;
   left: 0;
   z-index: 1;
-  transform: translateX(-65% );
+  transform: translateX(-95% );
+}
+
+@media screen and (min-width: 1187px) {
+  .hero-bg{
+    padding-inline: 14.375rem;
+  }  
+
+  .circle-bg{
+    transform: translate(50%, 60%);
+  }
+
+  .circle-bg2{
+    transform: translate(-65%);
+  }
 }
