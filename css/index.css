@@ -1,4 +1,4 @@
-@import './icon.css';
+@import './icons.css';
 @import './buttons.css';
 @import './hero.css';
 @import './header.css';
@@ -39,5 +39,8 @@ body {
   overflow-x: hidden;
 }
 
-
-
+@media screen and (min-width: 1187px) {
+  body{
+    overflow-x: hidden;
+  }  
+}

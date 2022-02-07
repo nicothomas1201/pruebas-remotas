@@ -19,5 +19,18 @@
 }
 
 #products .section-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  inline-size: 100%;
+  /* justify-content: center; */
   margin-block-start: 3.6875rem;  
+}
+
+@media screen and (min-width: 1187px) {
+  #products .section-buttons{
+    flex-direction: row;
+    justify-content: center;
+  }
+    
 }

@@ -3,17 +3,20 @@
 
 .section{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3.75rem;  
   padding-block: 6.25rem;
+  text-align: center;
 }
 
 .section-frame{
   z-index: 2;
   inline-size: 100%;
   max-inline-size: 32.25rem;
-  block-size: 21.9375rem;
+  aspect-ratio: 3/2;
+  /* block-size: 21.9375rem; */
   background-image: url(../images/screen1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,6 +28,7 @@
   gap: 0.4375rem;
   inline-size: 100%;
   max-inline-size: 41rem;
+  z-index: 2;
 }
 
 .section-title{
@@ -66,7 +70,6 @@
 }
 
 .section:nth-of-type(3) .section-frame{
-  order: 1;
   background-image: url(../images/screen2.png);
 }
 
@@ -82,4 +85,12 @@
   transform: translateX(45%);
 }
 
+@media screen and (min-width: 1187px) {
+  .section{
+    flex-direction: row;
+  }
 
+  .section:nth-of-type(3) .section-frame{
+    order: 1;
+  }
+}

@@ -10,5 +10,26 @@
   vertical-align: middle;
 }
 
+.header nav,.button-header{
+  display: none;
+}
 
+.header .button-mobile{
+  background-color: transparent;
+  border: none;
+  padding: none;
+  cursor: pointer;
+}
 
+.header .button-mobile i{
+  font-size: 32px;
+}
+
+@media screen and (min-width: 1187px) {
+  .header nav,.button-header{
+    display: block;
+  } 
+  .header .button-mobile{
+    display: none;
+  }
+}
