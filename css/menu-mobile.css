@@ -9,7 +9,6 @@
   top: 7.4375rem;
   left: 0;
   right: 0;
-  /* inline-size: 100%; */
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) -12.2%, rgba(0, 225, 198, 0.06) -12.2%, rgba(74, 234, 214, 0.334196) -12.2%, #ffffff 90.86%);
   z-index: 5;
   padding-block-start: 1rem;
@@ -17,15 +16,12 @@
 
 .menu-mobile-buttons{
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   flex-direction: column;
   inline-size: 100%;
   gap: 1rem;
 }
 
 .menu-mobile .footer-social{
-  border: 1px solid red;
   inline-size: 100%;
 }
 
