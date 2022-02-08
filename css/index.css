@@ -1,4 +1,3 @@
-@import './icons.css';
 @import './buttons.css';
 @import './hero.css';
 @import './header.css';
@@ -6,6 +5,7 @@
 @import './ofert.css';
 @import './section.css';
 @import './footer.css';
+@import './menu-mobile.css';
 
 
 :root { 

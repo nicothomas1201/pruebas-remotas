@@ -1,4 +1,7 @@
-.header{
+@import './menu-mobile.css';
+
+.header-mobile{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,26 +13,31 @@
   vertical-align: middle;
 }
 
-.header nav,.button-header{
+.header-desk{
   display: none;
 }
 
-.header .button-mobile{
+.header-mobile .button-mobile{
   background-color: transparent;
   border: none;
   padding: none;
   cursor: pointer;
 }
 
-.header .button-mobile i{
+.header-mobile .button-mobile i{
   font-size: 32px;
 }
 
 @media screen and (min-width: 1187px) {
-  .header nav,.button-header{
-    display: block;
-  } 
-  .header .button-mobile{
+  .header-desk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    block-size: 7.4375rem;
+    gap: 1rem;
+  }
+
+  .header-mobile{
     display: none;
   }
 }
