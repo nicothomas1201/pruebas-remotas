@@ -8,6 +8,11 @@
   color: var(--light);
   border: none;
   border-radius: 5rem;
+  transition: transform .3s;
+}
+
+.button:hover{
+  transform: scale(1.1);
 }
 
 .button:active{

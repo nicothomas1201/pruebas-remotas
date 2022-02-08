@@ -1,33 +1,22 @@
+import { openMenuMobile, closeMenuMobile } from "./menu-interactivity.js"
+import { isIntersecting } from './observer.js'
+
 const $buttonMobile = document.querySelector('#menu-mobile')
 const $icon = document.querySelector('#menu-mobile i')
 const $menuMobile = document.querySelector('.menu-mobile')
-
-function closeMenuMobile(){
-  $icon.classList.remove('fa-times')
-  $icon.classList.add('fa-bars')
-
-  $menuMobile.style.display = 'none'
-  return false
-}
-
-function openMenuMobile(){
-  $icon.classList.remove('fa-bars')
-  $icon.classList.add('fa-times')
-
-  $menuMobile.style.display = 'flex'
-  
-  return true
-}
-
+const $sectionFrame = document.querySelectorAll('.section-frame')
 
 let isOpen = false
-$buttonMobile.addEventListener('touchstart', handleTouchClose)
-function handleTouchClose(){
+$buttonMobile.addEventListener('touchstart', handleTouch)
+function handleTouch(){
   
   if(isOpen === false){
-    isOpen = openMenuMobile()
+    isOpen = openMenuMobile($menuMobile, $icon)
   } else{
-    isOpen = closeMenuMobile()
+    isOpen = closeMenuMobile($menuMobile, $icon)
   }
 }
 
+$sectionFrame.forEach(item => {
+  isIntersecting(item)
+})
